@@ -21,3 +21,6 @@ Este projeto em JavaScript permite verificar as pessoas que você segue no Insta
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+##LGPD
+O sistema não armazena nenhuma informação pessoal e nenhum arquivo enviado, o processamento é realizado completamente no computador do usuário
