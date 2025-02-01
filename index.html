@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificar seguidores mutuos do Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="input-file_container">
-            <a href="https://accountscenter.instagram.com/info_and_permissions/dyi/?entry_point=notification">
-                Requisite suas informações
+            <h2 class="text-center mb-2">Me seguem de volta?</h2>
+            <a class="text-center mb-4" href="help.html">
+                Como usar?
             </a> 
             <label for="following">Arquivo following.html</label>
-            <input type="file" id="following" accept=".html" /><br>
+            <input type="file" class="form-control mb-2" id="following" accept=".html"  aria-describedby="inputGroupFileAddon04" aria-label="Upload">
             <label for="followers">Arquivo followers.html</label>
-            <input type="file" id="followers" accept=".html" />     <br>
-            <input type="submit" id="submitButton" value="Enviar" />     
+            <input type="file" class="form-control" id="followers" accept=".html"  aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            <button type="submit" id="submitButton" class="btn btn-outline-primary mt-2">Enviar</button>
             <div id="output"></div>
         </div>
     </div>
+    <footer class="bg-dark text-white text-center p-2">
+        <p>Desenvolvido por <a class="link-light" href="https://github.com/felipetorresbr">Filipe Torres</a></p>
+    </footer>
 <script src="script.js"></script>
 </body>
 </html>
